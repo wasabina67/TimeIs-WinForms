@@ -28,11 +28,12 @@ Partial Class Form1
         'LabelTime
         '
         Me.LabelTime.AutoSize = True
+        Me.LabelTime.Font = New System.Drawing.Font("MS UI Gothic", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.LabelTime.Location = New System.Drawing.Point(0, 0)
         Me.LabelTime.Name = "LabelTime"
-        Me.LabelTime.Size = New System.Drawing.Size(38, 12)
+        Me.LabelTime.Size = New System.Drawing.Size(184, 48)
         Me.LabelTime.TabIndex = 0
-        Me.LabelTime.Text = "Label1"
+        Me.LabelTime.Text = "00:00:00"
         '
         'Form1
         '
